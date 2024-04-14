@@ -1,0 +1,18 @@
+@import 'https://unpkg.com/@acab/reset.css';
+
+html {
+   font-size: 62.5%; 
+}
+
+body {
+   /*font-sizeを指定していない場合16pxとなる*/
+   font-family: "Noto Sans JP", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+   font-weight: 500;
+   overflow-x: hidden;
+}
+
+a  {
+  cursor: pointer;
+}

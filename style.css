@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import 'https://unpkg.com/@acab/reset.css';
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /*font-sizeを指定していない場合16pxとなる*/
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+a {
+  cursor: pointer;
+}
+
+.l-main {
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.l-footer {
+  width: min(100%, 960px);
+  background: url("./img/footer.png") no-repeat left top/cover;
+  height: min(22.6666666667vw, 229.12px);
+  margin: 0 auto;
+}
+
+/*
+.l-footer--complete{
+	display: none;
+	width:min(100%,va.$maxWidth);
+	background: url('./img/footer-completion-of-application.png') no-repeat left top/ cover;	
+	height:min(calc(421/va.$pc-design-width*100vw),calc(421 * va.$max-size));
+	margin:0 auto;
+}
+*/
+/*
+[data-screen="input"] .l-footer{
+	display: block;
+}
+
+[data-screen="confirm"] .l-footer{
+	display: block;
+}
+
+[data-screen="complete"] .l-footer{
+	display: none;
+}
+
+[data-screen="complete"] .l-footer--complete{
+	display: block;
+}
+*/
+/*# sourceMappingURL=../style.css.map */

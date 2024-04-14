@@ -1,0 +1,38 @@
+@use '../Foundation/vars' as va;
+@use '../Foundation/mixin';
+
+.l-footer{
+	//display: none;
+	width:min(100%,va.$maxWidth);
+	background: url('./img/footer.png') no-repeat left top/ cover;	
+	height:min(calc(170/va.$pc-design-width*100vw),calc(179 * va.$max-size));
+	margin:0 auto;
+}
+
+/*
+.l-footer--complete{
+	display: none;
+	width:min(100%,va.$maxWidth);
+	background: url('./img/footer-completion-of-application.png') no-repeat left top/ cover;	
+	height:min(calc(421/va.$pc-design-width*100vw),calc(421 * va.$max-size));
+	margin:0 auto;
+}
+*/
+
+/*
+[data-screen="input"] .l-footer{
+	display: block;
+}
+
+[data-screen="confirm"] .l-footer{
+	display: block;
+}
+
+[data-screen="complete"] .l-footer{
+	display: none;
+}
+
+[data-screen="complete"] .l-footer--complete{
+	display: block;
+}
+*/
