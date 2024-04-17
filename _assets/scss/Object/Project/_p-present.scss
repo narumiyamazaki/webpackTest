@@ -1,0 +1,10 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-present{
+	width:min(100%,va.$maxWidth);
+	height:min(calc(957/va.$pc-design-width*100vw),calc(957 * va.$max-size));
+	object-fit: cover;
+	margin:0 auto;
+	display: block;
+}

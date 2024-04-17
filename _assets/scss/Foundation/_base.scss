@@ -5,12 +5,14 @@ html {
 }
 
 body {
-   /*font-sizeを指定していない場合16pxとなる*/
    font-family: "Noto Sans JP", sans-serif;
    font-optical-sizing: auto;
    font-style: normal;
    font-weight: 500;
    overflow-x: hidden;
+
+   //中央寄せ
+   margin:0 auto;
 }
 
 a  {

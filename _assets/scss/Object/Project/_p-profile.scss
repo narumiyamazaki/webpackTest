@@ -1,0 +1,10 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-profile{
+	width:min(100%,va.$maxWidth);
+	height:min(calc(2050/va.$pc-design-width*100vw),calc(2050 * va.$max-size));
+	object-fit: contain;
+	margin:0 auto min(calc(28/va.$pc-design-width*100vw),calc(28 * va.$max-size));;
+	display: block;
+}

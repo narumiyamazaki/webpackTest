@@ -1,0 +1,11 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-past-career{
+	width:min(100%,va.$maxWidth);
+	height:min(calc(2941/va.$pc-design-width*100vw),calc(2941 * va.$max-size));
+	object-fit: cover;
+	//margin-bottom: 115px - box-shadow: 14px = 101px;
+	margin:0 auto min(calc(101/va.$pc-design-width*100vw),calc(101 * va.$max-size));;
+	display: block;
+}

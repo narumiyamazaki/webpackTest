@@ -1,0 +1,11 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-inexperience{
+	width:min(100%,va.$maxWidth);
+	height:min(calc(3253/va.$pc-design-width*100vw),calc(3253 * va.$max-size));
+	object-fit: cover;
+	//margin-bottom 119px - shadow-box 14px = 105px
+	margin:0 auto min(calc(105/va.$pc-design-width*100vw),calc(105 * va.$max-size));
+	display: block;
+}
