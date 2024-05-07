@@ -1,9 +1,0 @@
-@use '../../Foundation/vars' as va;
-@use '../../Foundation/mixin';
-
-.p-footer__link__wrapper{
-	width: min(calc(366/va.$pc-design-width*100vw),calc(366 * va.$max-size));
-	display: flex;
-	align-items: center;
-	justify-content: space-between;	
-}

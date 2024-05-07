@@ -1,0 +1,20 @@
+.p-box__test {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 45px;
+	background-image: -moz-linear-gradient( 89deg, rgb(234,85,4) 0%, rgb(232,141,76) 100%);
+	background-image: -webkit-linear-gradient( 89deg, rgb(234,85,4) 0%, rgb(232,141,76) 100%);
+	background-image: -ms-linear-gradient( 89deg, rgb(234,85,4) 0%, rgb(232,141,76) 100%);
+	box-shadow: 0px 4px 9.1px 0.9px rgba(255, 255, 255, 0.1);
+	width: 513px;
+	height: 81px;
+	box-sizing: content-box;
+
+	color:#fff;
+	font-weight: bold;
+	font-size:36px;
+	text-align: center;
+	display: grid;
+	place-items: center;
+}

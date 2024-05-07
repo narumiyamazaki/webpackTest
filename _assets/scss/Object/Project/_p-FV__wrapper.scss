@@ -1,8 +1,0 @@
-@use '../../Foundation/vars' as va;
-@use '../../Foundation/mixin';
-
-.p-FV__wrapper{
-	position:relative;
-	width:min(100%,va.$maxWidth);
-	margin:0 auto;
-}

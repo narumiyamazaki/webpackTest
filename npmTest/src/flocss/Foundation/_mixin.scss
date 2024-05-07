@@ -1,0 +1,48 @@
+@use './vars' as va;
+
+$breakpoint: (
+  //sp: 'screen and (max-width: 767px)',
+  //tb: 'screen and (min-width: 768px)',
+  pc: 'screen and (min-width: 768px)'
+);
+
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+   @content;
+  }
+}
+
+
+
+@mixin nav-item--Japanese($fontFamily:va.$serif,$fontColor:va.$text-color){
+  font-family: $fontFamily;
+  color: $fontColor;
+  font-size: max(calc(18/va.$sp-design-width*100vw),18px);
+  line-height: calc(24/18);
+  text-align: center;
+  font-weight: 500;
+  writing-mode: vertical-lr;
+}
+
+@mixin button-main-color($fontFamily:va.$serif,$fontColor:#fff,$backgroudColor:va.$main-color){
+  font-family: $fontFamily;
+  color: $fontColor;
+  background-color: $backgroudColor;
+  width: 100%;
+  font-size: max(calc(16/va.$sp-design-width*100vw),16px);
+  letter-spacing: calc(100/1000*1em);
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+  line-height: calc(23/16);
+  padding: max(calc(40/va.$sp-design-width*100vw),40px) 0;
+}
+
+@mixin img-template($widthV:20vw,$heightV:10){
+	width:min($widthV,va.$maxWidth);
+	height:min(calc($heightV/va.$pc-design-width*100vw),calc($heightV* va.$max-size));
+}
+
+@mixin margin-bottom-EC($marginBEC:20vw){
+	margin:0 auto min(calc($marginBEC/va.$pc-design-width*100vw),calc($marginBEC* va.$max-size));
+}
