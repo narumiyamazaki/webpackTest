@@ -1,5 +1,15 @@
-@use './flocss/Foundation/*';
-@use './flocss/Layout/*';
-@use './flocss/Object/Project/*';
-@use './flocss/Object/Component/*';
-@use './flocss/Object/Utility/*';
+@charset "UTF-8";
+
+@use './flocss/Foundation/*' as *;
+//@use '"./flocss/Foundation/*"';
+//@use './flocss/Layout/*';
+//@use '"./flocss/Object/Project/*"';
+@use './flocss/Object/Project/*' as *;
+//@use '"C:/Users/shiba/OneDrive/デスクトップ/新しいフォルダー/git_repositories/test/npmTest/src/flocss/Object/Project/*"';
+//@use './flocss/Object/Project/p-box__test';
+//@use './flocss/Object/Project/p-box__test__wrapper';
+//@use '"C:\Users\shiba\OneDrive\デスクトップ\新しいフォルダー\git_repositories\test\npmTest\src\flocss\Object\Project\_p-box__test.scss"';
+
+body{
+	background-color: violet;
+}
