@@ -1,8 +1,0 @@
-@use '../../Foundation/vars' as va;
-@use '../../Foundation/mixin';
-
-.p-background-image{
-	background: url('../../img/AdobeStock_326451096.jpeg') no-repeat left top/contain;
-	width:max(400/va.$pc-design-width*100vw);
-	height:300px;
-}
