@@ -12,6 +12,10 @@
 	align-items: center;
 	flex-direction: column;
 	position:relative;
+	top:100px;
+	//ふんわり出す
+	opacity: 0;
+	transform: translateY(100px);
 	&::after{
 		content:'';
 		//top:8px;
@@ -30,5 +34,10 @@
 			width: 240px;
 			transition:all 1s;
 		}
+	}
+	&.is-animation{
+		opacity: 1;
+		transition: all 1s;
+		transform: translateY(0);
 	}
 }
