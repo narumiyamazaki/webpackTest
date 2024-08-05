@@ -1,5 +1,75 @@
 /*scss*/
 
+.p-box{
+	width:300px;
+	height:100px;
+	background-color: #454D80;
+	color:#fff;
+	font-family: "Sawarabi Gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position:relative;
+	top:100px;
+	//ふんわり出す
+	opacity: 0;
+	transform: translateY(100px);
+	&::after{
+		content:'';
+		//top:8px;
+		width: 0px;
+		height: 2px;
+		background-color: #454D80;
+		display: inline-block;
+		//position:absolute;
+	}
+	&:hover{
+		color:#454D80;
+		background: #fff;
+		transition: all .2s;
+		border:4px solid #454D80;
+		&::after{
+			width: 240px;
+			transition:all 1s;
+		}
+	}
+	&.is-animation{
+		opacity: 1;
+		transition: all 1s;
+		transform: translateY(0);
+	}
+}
+
+.p-mordal-content__txt{
+	font-family: "Sawarabi Gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:24px;
+}
+
+.p-mordal-content__inner{
+	height:194px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #efefef;
+	padding:0 16px;
+}
+
+.p-mordal-content__link{
+	font-family: "Sawarabi Gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size:18px;
+	color:#454D80;
+	text-decoration: none;
+}
+
 /*mordalの後ろの背景色を指定する*/
 dialog::backdrop{
 	background:rgba(0,0,0,.4);
@@ -32,7 +102,7 @@ dialog::backdrop{
   
   .p-mordal-content{
 	width:300px;
-	height:100px;
+	height:200px;
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -42,14 +112,14 @@ dialog::backdrop{
   .p-mordal__close{
 	width:20px;
 	height:20px;
-	border-radius:50%;
-	border-color:#000;
+	border:none;
 	position:absolute;
 	right:20px;
+	top:10px;
 	&::before{
 	 content:'';
 	  width:2px;
-	  height:10px;
+	  height:13px;
 	  background-color:red;
 	  position:absolute;
 	  transform:rotate(135deg);
@@ -58,12 +128,12 @@ dialog::backdrop{
 	&::after{
 	 content:'';
 	  width:2px;
-	  height:10px;
+	  height:13px;
 	  background-color:red;
 	  position:absolute;
 	  transform:rotate(45deg);
 	  bottom:3px;
-	  right:6px;
+	  right:8px;
 	}
   }
   
@@ -76,6 +146,7 @@ dialog::backdrop{
 		font-weight: 400;
 		font-style: normal;
 		font-size:24px;
+		border:none;
 	}
   
   /*以下は、spanタグに文字を入れておいてるクリーンリーダー的には読まれるけれど、表示されないという仕組みのために必要*/
