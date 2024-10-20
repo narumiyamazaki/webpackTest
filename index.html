@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
 		<link href="./reset.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 		<!--
 		<link href="./style.css" rel="stylesheet">
 		-->
@@ -16,15 +17,33 @@
 	<body>
 		<main>
 		<!--HTMLコード-->
-			<button id="JS-mordal" class="p-mordal__btn">mordal button</button>
-			<dialog class="p-mordal-content">
-			<button id="JS-close" class="p-mordal__close"><span class="visually-hidden">閉じるボタン</span></button>
-			<div class="p-mordal-content__inner">
-				<p class="p-mordal-content__txt">今だけ初回30%OFFクーポンをプレゼント!</p>
-				<a class="p-mordal-content__link" href="#">詳細はこちらのリンク</a>
-			</div>
-			</dialog>
+			<div class="p-frame__wrapper">
+				<div class="p-frame"></div>
+				<div id="splide" class="splide" aria-label="Splideの基本的なHTML">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide p-slider-item">
+								<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2024/04/AdobeStock_103061717-scaled.jpeg" alt=""> 
+							</li>
+							<li class="splide__slide p-slider-item">
+								<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2023/10/AdobeStock_138639147-scaled-e1697423783714.jpeg" alt=""> 
+							</li>
+							<li class="splide__slide p-slider-item">
+								<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2023/08/AdobeStock_311377588-scaled-e1692074630311.jpeg" alt=""> 
+							</li>
+							<li class="splide__slide p-slider-item">
+								<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2023/02/AdobeStock_416939154-scaled-e1677292925598.jpeg" alt=""> 
+							</li>
+							<li class="splide__slide p-slider-item">
+								<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2022/11/AdobeStock_297102218-scaled-e1667700214894.jpeg" alt=""> 
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>	
 		</main>
+		<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+
 		<script defer src="./npmTest/dist/main.js"></script>
 		<script defer src="./JS/index.js"></script>
 	</body>
