@@ -1,12 +1,10 @@
-@use '../Foundation/vars' as va;
-@use '../Foundation/mixin';
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
 
-//extend
-
-%c-item__link--nav{    
+.p-sub-menu__item{
+    background: #9900ab;
     color: #fff;
     width:100%;
-    //margin-right:calc(16/va.$sp-design-width*100vw);
     font-size: clamp(16px,calc(16/va.$sp-design-width*100vw),20px);
     text-align: center;
     height: 70px;
@@ -18,5 +16,4 @@
         width:calc(150/va.$pc-design-width*100vw);
         font-size: clamp(16px,calc(16/va.$pc-design-width*100vw),20px);
     }
- 
 }

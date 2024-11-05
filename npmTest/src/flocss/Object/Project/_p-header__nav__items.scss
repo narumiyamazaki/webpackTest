@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+
+.p-header__nav__items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    @include mixin.mq(pc){
+        flex-direction: row;
+		align-items: center;
+        background: #0bd;
+    }
+    
+}

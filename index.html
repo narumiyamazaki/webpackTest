@@ -15,36 +15,30 @@
 		-->
 	</head>
 	<body>
-		<main>
-		<!--HTMLコード-->
-			<div class="p-frame__wrapper">
-				<div class="p-frame">
-					<div id="splide" class="splide" aria-label="Splideの基本的なHTML">
-						<div class="splide__track">
-							<ul class="splide__list">
-								<li class="splide__slide p-slider-item">
-									<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2024/04/AdobeStock_103061717-scaled.jpeg" alt=""> 
-								</li>
-								<li class="splide__slide p-slider-item">
-									<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2023/10/AdobeStock_138639147-scaled-e1697423783714.jpeg" alt=""> 
-								</li>
-								<li class="splide__slide p-slider-item">
-									<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2023/08/AdobeStock_311377588-scaled-e1692074630311.jpeg" alt=""> 
-								</li>
-								<li class="splide__slide p-slider-item">
-									<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2023/02/AdobeStock_416939154-scaled-e1677292925598.jpeg" alt=""> 
-								</li>
-								<li class="splide__slide p-slider-item">
-									<img class="p-slide__img" src="http://askne.blog/wp-content/uploads/2022/11/AdobeStock_297102218-scaled-e1667700214894.jpeg" alt=""> 
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</main>
-		<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
-
+		<header class="l-header">
+            <div class="p-nav__sp__wrapper">
+                <button class="p-nav__btn" aria-controls="navigation" aria-expanded="false">
+                    <span class="p-humberger__line"></span>
+                    <span class="p-humberger__text">メニューを開く</span>
+                </button>
+            </div>
+            <nav class="p-header__nav__body--sp" aria-label="sp">
+                <ul class="p-header__nav__items">
+                    <li class="p-nav__item"><a class="p-nav__item__link" href="#">ホーム</a></li>
+                    <li class="p-nav__item">
+                        <button class="p-nav__sub-menu__btn" aria-expanded="false">サービス</button>
+                        <ul class="p-sub-menu__items">
+                            <li class="p-sub-menu__item"><a class="p-sub-menu__item__link" href="#">サービス A</a></li>
+                            <li class="p-sub-menu__item"><a class="p-sub-menu__item__link" href="#">サービス B</a></li>
+                            <li class="p-sub-menu__item"><a class="p-sub-menu__item__link" href="#">サービス C</a></li>
+                        </ul>
+                    </li>
+                    <li class="p-nav__item"><a class="p-nav__item__link" href="#">会社概要</a></li>
+                    <li class="p-nav__item"><a class="p-nav__item__link" href="#">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <!--ロゴ-->
+        </header>
 		<script defer src="./npmTest/dist/main.js"></script>
 		<script defer src="./JS/index.js"></script>
 	</body>

@@ -1,0 +1,47 @@
+@use '../../Foundation/mixin';
+
+.p-humberger__line {
+        display: inline-block;
+        position:relative;
+        width: 23px;
+        height: 2px;
+        background-color:#000;
+        bottom:2px;
+    &::before {
+        position:absolute;
+        bottom: 13px;
+        left: 0;
+        content: "";
+        width: 23px;
+        height: 2px;
+        background-color:#000;
+        transition: .2s;
+    }
+    &::after {
+        position:absolute;
+        top: 13px;
+        left: 0;
+        content: "";
+        width: 23px;
+        height: 2px;
+        background-color:#000;
+        transition: .2s;
+    }
+    //ハンバーガーメニューのボタンを押したときの挙動
+    &.open {
+        background-color: transparent;
+    }
+    &.open::before {
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
+    &.open::after {
+        top: 0;
+        transform: rotate(-135deg);
+    }
+}
+
+.p-nav__btn.open{
+    position:relative;
+    z-index: 999;
+}

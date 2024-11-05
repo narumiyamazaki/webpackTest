@@ -1,0 +1,18 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/vars' as va;
+
+.p-header__nav__body--pc{
+    display: none;
+    position:absolute;
+    //height:va.$headerHeight;
+    left: 0;
+    right: 0;
+    //height:100vh;
+    background-color: #9d8ebe;
+    @include mixin.mq(pc){
+        //height:100%;
+        display:block;
+        position: static;
+        
+    }
+}
