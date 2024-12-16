@@ -2,12 +2,13 @@
 //サイトの基本設定
 $maxWidth:960px;
 $max-size:calc(960/750 * 1px);
-$pc-design-width:750;
+$pc-design-width:1440;
 //$tb-design-width:1023;
-$sp-design-width:375;
+$sp-design-width:768;
 
 //カラーの定義
-$baseColor:#d93a80;
+$mainBlue:#3455FC;
+$subBlue:#0B0A43
 //フォント
 
 // メディアクエリのブレイクポイント用変数

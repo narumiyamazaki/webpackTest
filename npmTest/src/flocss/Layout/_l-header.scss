@@ -13,6 +13,8 @@
     width: 100%;
     background-color: #fff;
     @include mixin.mq(pc){
+		width:calc(1300/va.$pc-design-width*100vw);
+		margin-left:calc(70/va.$pc-design-width*100vw);
         //flex-direction: row-reverse;
     }
 }
