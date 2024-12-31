@@ -1,7 +1,7 @@
-@use '../../../scss/Foundation/mixin';
+@use '../../Foundation/mixin';
 @use '../../Foundation/vars' as va;
 
-.c-item__link--nav{    
+.p-item__link--nav{    
     color: #fff;
     width:100%;
     //margin-right:calc(16/va.$sp-design-width*100vw);

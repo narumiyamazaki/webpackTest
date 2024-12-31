@@ -8,12 +8,12 @@ $sp-design-width:768;
 
 //カラーの定義
 $mainBlue:#3455FC;
-$subBlue:#0B0A43
+$subBlue:#0B0A43;
 //フォント
 
 // メディアクエリのブレイクポイント用変数
 $breakpoints: (
     'sp': 'screen and (max-width: 414px)',
     'tb': 'screen and (max-width: 768px)',
-    'pc': 'screen and (max-width: 1024px)',
+    'pc': 'screen and (max-width: 1024px)'
   ) !default;
