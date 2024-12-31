@@ -1,0 +1,24 @@
+@use '../../../scss/Foundation/mixin';
+@use '../../Foundation/vars' as va;
+
+.c-item__link--nav{    
+    color: #fff;
+    width:100%;
+    //margin-right:calc(16/va.$sp-design-width*100vw);
+    font-size: clamp(16px,calc(16/va.$sp-design-width*100vw),20px);
+    text-align: center;
+    height: 70px;
+    //aタグがインライン要素なので高さを揃えるためにflexに
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include mixin.mq(pc){
+        width:calc(150/va.$pc-design-width*100vw);
+        font-size: clamp(16px,calc(16/va.$pc-design-width*100vw),20px);
+    }
+    /*
+    > :hover{
+        background: #0090aa;
+    }
+    */
+}

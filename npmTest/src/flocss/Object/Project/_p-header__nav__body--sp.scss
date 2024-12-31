@@ -1,0 +1,23 @@
+@use '../../Foundation/mixin';
+
+.p-header__nav__body--sp{
+    position: fixed;
+    top:0;
+    z-index: -1;
+    opacity: 0;
+    height:100vh;
+    width: 100%;
+    background-color: #9d8ebe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include mixin.mq(pc){
+        display: none;
+    }
+}
+
+//ハンバーガーメニューのボタンを押したとき
+.p-header__nav__body--sp.open{
+        opacity: 1;
+        z-index: 100;
+    }

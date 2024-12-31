@@ -1,10 +1,12 @@
 @charset "UTF-8";
 
 @use './flocss/Foundation/*' as *;
-//@use '"./flocss/Foundation/*"';
-//@use './flocss/Layout/*';
-//@use '"./flocss/Object/Project/*"';
+@use './flocss/Layout/*' as *;
 @use './flocss/Object/Project/*' as *;
+@use './flocss/Object/Component/*' as *;
+@use './flocss/Object/Utility/*' as *;
+
+
 //@use '"C:/Users/shiba/OneDrive/デスクトップ/新しいフォルダー/git_repositories/test/npmTest/src/flocss/Object/Project/*"';
 //@use './flocss/Object/Project/p-box__test';
 //@use './flocss/Object/Project/p-box__test__wrapper';

@@ -16,7 +16,7 @@
   \***************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"../node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"../node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"../node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/AdobeStock_442035881.webp */ \"../../img/AdobeStock_442035881.webp\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `/* Box sizing rules */\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\n/* Prevent font size inflation */\nhtml {\n  -moz-text-size-adjust: none;\n  -webkit-text-size-adjust: none;\n  text-size-adjust: none;\n}\n\n/* Remove default margin in favour of better control in authored CSS */\nbody, h1, h2, h3, h4, p,\nfigure, blockquote, dl, dd {\n  margin-block-end: 0;\n}\n\n/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */\nul[role=list],\nol[role=list] {\n  list-style: none;\n}\n\n/* Set core body defaults */\nbody {\n  min-height: 100vh;\n  line-height: 1.5;\n}\n\n/* Set shorter line heights on headings and interactive elements */\nh1, h2, h3, h4,\nbutton, input, label {\n  line-height: 1.1;\n}\n\n/* Balance text wrapping on headings */\nh1, h2,\nh3, h4 {\n  text-wrap: balance;\n}\n\n/* A elements that don't have a class get default styles */\na:not([class]) {\n  text-decoration-skip-ink: auto;\n  color: currentColor;\n}\n\n/* Make images easier to work with */\nimg,\npicture {\n  max-width: 100%;\n  display: block;\n}\n\n/* Inherit fonts for inputs and buttons */\ninput, button,\ntextarea, select {\n  font-family: inherit;\n  font-size: inherit;\n}\n\n/* Make sure textareas without a rows attribute are not tiny */\ntextarea:not([rows]) {\n  min-height: 10em;\n}\n\n/* Anything that has been anchored to should have extra scroll margin */\n:target {\n  scroll-margin-block: 5ex;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\na {\n  cursor: pointer;\n  text-decoration: none;\n}\n\nmain {\n  display: grid;\n  place-content: center;\n  height: 100vh;\n}\n\n.splide {\n  position: absolute;\n  z-index: -1;\n}\n\n.p-slide__img {\n  width: 56vw;\n  height: 37vw;\n  object-fit: cover;\n  position: relative;\n  left: 2vw;\n  top: 3.5vw;\n}\n\n.p-frame__wrapper {\n  display: grid;\n  place-items: center;\n}\n\n.p-frame {\n  width: 60vw;\n  height: 41vw;\n  background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) no-repeat top left/contain;\n  position: relative;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./style.scss?../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/webpack-dart-sass-glob/index.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"../node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"../node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `@charset \"UTF-8\";\n/* Box sizing rules */\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\n/* Prevent font size inflation */\nhtml {\n  -moz-text-size-adjust: none;\n  -webkit-text-size-adjust: none;\n  text-size-adjust: none;\n}\n\n/* Remove default margin in favour of better control in authored CSS */\nbody, h1, h2, h3, h4, p,\nfigure, blockquote, dl, dd {\n  margin-block-end: 0;\n}\n\n/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */\nul[role=list],\nol[role=list] {\n  list-style: none;\n}\n\n/* Set core body defaults */\nbody {\n  min-height: 100vh;\n  line-height: 1.5;\n}\n\n/* Set shorter line heights on headings and interactive elements */\nh1, h2, h3, h4,\nbutton, input, label {\n  line-height: 1.1;\n}\n\n/* Balance text wrapping on headings */\nh1, h2,\nh3, h4 {\n  text-wrap: balance;\n}\n\n/* A elements that don't have a class get default styles */\na:not([class]) {\n  text-decoration-skip-ink: auto;\n  color: currentColor;\n}\n\n/* Make images easier to work with */\nimg,\npicture {\n  max-width: 100%;\n  display: block;\n}\n\n/* Inherit fonts for inputs and buttons */\ninput, button,\ntextarea, select {\n  font-family: inherit;\n  font-size: inherit;\n}\n\n/* Make sure textareas without a rows attribute are not tiny */\ntextarea:not([rows]) {\n  min-height: 10em;\n}\n\n/* Anything that has been anchored to should have extra scroll margin */\n:target {\n  scroll-margin-block: 5ex;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n}\n\nhtml {\n  font-size: 62.5%;\n}\n\na {\n  cursor: pointer;\n  text-decoration: none;\n}\n\nmain {\n  display: grid;\n  place-content: center;\n  height: 100vh;\n}\n\n.l-header {\n  display: flex;\n  justify-content: space-between;\n  position: fixed;\n  z-index: 1;\n  top: 0;\n  left: 0;\n  width: 100%;\n  background-color: #fff;\n}\n.p-sub-menu__items {\n  display: none;\n  position: absolute;\n}\n\n.p-sub-menu__items.open {\n  display: block;\n  position: static;\n}\n@media screen and (min-width: 768px) {\n  .p-sub-menu__items.open {\n    position: absolute;\n  }\n}\n\n.p-sub-menu__item {\n  background: #9900ab;\n  color: #fff;\n  width: 100%;\n  font-size: clamp(16px, 4.2666666667vw, 20px);\n  text-align: center;\n  height: 70px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n@media screen and (min-width: 768px) {\n  .p-sub-menu__item {\n    width: 20vw;\n    font-size: clamp(16px, 2.1333333333vw, 20px);\n  }\n}\n\n.p-nav__sub-menu__btn {\n  /*@extend %c-item__link--nav;*/\n  display: inline-block;\n}\n\n.p-nav__sp__wrapper {\n  display: flex;\n  justify-content: space-between;\n}\n\n.p-nav__item__link {\n  color: #fff;\n  width: 100vw;\n  font-size: clamp(16px, 4.2666666667vw, 20px);\n  text-align: center;\n  height: 70px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n@media screen and (min-width: 768px) {\n  .p-nav__item__link {\n    width: 20vw;\n    font-size: clamp(16px, 2.1333333333vw, 20px);\n  }\n}\n\n.p-nav__btn {\n  display: block;\n  width: 50px;\n  height: 50px;\n}\n@media screen and (min-width: 768px) {\n  .p-nav__btn {\n    display: none;\n  }\n}\n\n.p-nav__btn.open {\n  position: relative;\n  z-index: 999;\n}\n\n/*\n\n@use '../../Foundation/mixin';\n\n.p-nav__btn {\n    display: block;\n    position: relative;\n    width: 50px;\n    height: 50px;\n    @include mixin.mq(pc){\n        display: none;\n    }\n    > a {\n        display: block;\n        position: relative;\n        width: 50px;\n        height: 50px;\n    }\n    > a::before {\n        position:absolute;\n        top: 15px;\n        left: 14px;\n        content: \"\";\n        width: 23px;\n        height: 2px;\n        background-color:#000;\n        transition: .2s;\n    }\n    > a > span {\n        display: block;\n        overflow: hidden;\n        width: 1px;\n        height: 1px;\n    }\n    > a > span::after{\n        position:absolute;\n        top: 24px;\n        left: 14px;\n        content: \"\";\n        width: 23px;\n        height: 2px;\n        background-color:#000;\n        transition: .2s;\n    }\n    > a::after {\n        position:absolute;\n        bottom: 15px;\n        left: 14px;\n        content: \"\";\n        width: 23px;\n        height: 2px;\n        background-color:#000;\n    }\n    //ハンバーガーメニューのボタンを押したときの挙動\n    > a.open::before {\n        top: 24px;\n        transform: rotate(-45deg);\n    }\n    > a.open::after {\n        display:none;\n    }\n    > a.open > span::after {\n        bottom: 24px;\n        transform: rotate(-135deg);\n    }\n}\n\n.p-nav__btn.open{\n    position:relative;\n    z-index: 999;\n}\n\n*/\n.p-humberger__text {\n  display: block;\n  overflow: hidden;\n  width: 1px;\n  height: 1px;\n}\n\n.p-humberger__line {\n  display: inline-block;\n  position: relative;\n  width: 23px;\n  height: 2px;\n  background-color: #000;\n  bottom: 2px;\n}\n.p-humberger__line::before {\n  position: absolute;\n  bottom: 13px;\n  left: 0;\n  content: \"\";\n  width: 23px;\n  height: 2px;\n  background-color: #000;\n  transition: 0.2s;\n}\n.p-humberger__line::after {\n  position: absolute;\n  top: 13px;\n  left: 0;\n  content: \"\";\n  width: 23px;\n  height: 2px;\n  background-color: #000;\n  transition: 0.2s;\n}\n.p-humberger__line.open {\n  background-color: transparent;\n}\n.p-humberger__line.open::before {\n  bottom: 0;\n  transform: rotate(-45deg);\n}\n.p-humberger__line.open::after {\n  top: 0;\n  transform: rotate(-135deg);\n}\n\n.p-nav__btn.open {\n  position: relative;\n  z-index: 999;\n}\n\n.p-header__nav__items {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n}\n@media screen and (min-width: 768px) {\n  .p-header__nav__items {\n    flex-direction: row;\n    align-items: center;\n    background: #0bd;\n  }\n}\n\n.p-header__nav__body--sp {\n  position: fixed;\n  top: 0;\n  z-index: -1;\n  opacity: 0;\n  height: 100vh;\n  width: 100%;\n  background-color: #9d8ebe;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n@media screen and (min-width: 768px) {\n  .p-header__nav__body--sp {\n    display: none;\n  }\n}\n\n.p-header__nav__body--sp.open {\n  opacity: 1;\n  z-index: 100;\n}\n\n.p-header__nav__body--pc {\n  display: none;\n  position: absolute;\n  left: 0;\n  right: 0;\n  background-color: #9d8ebe;\n}\n@media screen and (min-width: 768px) {\n  .p-header__nav__body--pc {\n    display: block;\n    position: static;\n  }\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./style.scss?../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!../node_modules/webpack-dart-sass-glob/index.js");
 
 /***/ }),
 
@@ -27,16 +27,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack:///../node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "../node_modules/css-loader/dist/runtime/getUrl.js":
-/*!*********************************************************!*\
-  !*** ../node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \*********************************************************/
-/***/ ((module) => {
-
-eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack:///../node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -128,16 +118,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./style.scss\");\n\n\n//# sourceURL=webpack:///./index.js?");
 
-/***/ }),
-
-/***/ "../../img/AdobeStock_442035881.webp":
-/*!*******************************************!*\
-  !*** ../../img/AdobeStock_442035881.webp ***!
-  \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"46fa672bcc4a3bf51d77.webp\";\n\n//# sourceURL=webpack:///../../img/AdobeStock_442035881.webp?");
-
 /***/ })
 
 /******/ 	});
@@ -166,9 +146,6 @@ eval("module.exports = __webpack_require__.p + \"46fa672bcc4a3bf51d77.webp\";\n\
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -194,18 +171,6 @@ eval("module.exports = __webpack_require__.p + \"46fa672bcc4a3bf51d77.webp\";\n\
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -220,55 +185,6 @@ eval("module.exports = __webpack_require__.p + \"46fa672bcc4a3bf51d77.webp\";\n\
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

@@ -1,0 +1,20 @@
+@use '../Foundation/mixin';
+
+.l-header {
+    display: flex;
+    //align-items: center;
+    justify-content: space-between;
+    
+    //headerを固定する場合
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    @include mixin.mq(pc){
+		width:calc(1300/va.$pc-design-width*100vw);
+		margin-left:calc(70/va.$pc-design-width*100vw);
+        //flex-direction: row-reverse;
+    }
+}

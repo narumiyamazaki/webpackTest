@@ -1,0 +1,13 @@
+@use '../../Foundation/mixin';
+@use '../../Foundation/vars' as va;
+
+.c-logo{
+    width: calc(130/va.$sp-design-width*100vw);
+    height: calc(28/va.$sp-design-width*100vw);
+	object-fit: contain;
+    @include mixin.mq(pc){
+        margin-right:0;
+        width: calc(130/va.$pc-design-width*100vw);
+		height: calc(28/va.$pc-design-width*100vw);
+    }
+}

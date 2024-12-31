@@ -1,0 +1,19 @@
+@use '../../Foundation/vars' as va;
+@use '../../Foundation/mixin';
+
+.p-site_name__txt{
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	text-align: center;
+	font-size: max(calc(13/va.$sp-design-width*100vw),13px);
+	width:calc(118/va.$sp-design-width*100vw);
+	height:calc(25/va.$sp-design-width*100vw);
+	color:#fff;
+	border:1px solid #fff;
+	border-radius: 4px;
+	@include mixin.mq(pc){
+        width:calc(150/va.$pc-design-width*100vw);
+        font-size: max(calc(13/va.$pc-design-width*100vw),13px);
+    }
+}

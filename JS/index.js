@@ -1,16 +1,93 @@
-const options = {
-	type      : 'loop',      // ループを有効にする
-	   perPage   : 1,           // 1ページに表示するスライド数
-	   perMove   : 1,           // 1度に移動するスライド数
-	   autoplay  : 'slide',       // 自動再生を無効にする
-	   interval  : 3000,        // 次のスライドが表示されるまでの時間（ミリ秒）
-	   pauseOnHover: true,      // マウスホバー時に一時停止
-	   pagination: false,       // ページネーションを無効にする
-	   arrows    : false,        // 前後の矢印を表示
-	   drag      : false,       // ドラッグでの移動を無効にする
-	   gap       : 10,
- };
- 
- const splide = new Splide(".splide", options);
- 
- splide.mount(window.splide.Extensions);
+const navBtn = document.querySelector(".p-nav__btn");
+const navSp = document.querySelector(".p-header__nav__body--sp");
+const humbergerLine = document.querySelector(".p-humberger__line");
+const navSubMenuBtn = document.querySelectorAll(".p-nav__sub-menu__btn");
+const navSubMenu = document.querySelectorAll('.p-sub-menu__items');
+let flg = false;
+let accordionFlg = false;
+const focusTrap = document.querySelector("#js-focus-trap");
+
+const backgroundFix = (bool) => {
+    const scrollingElement = () => {
+      const browser = window.navigator.userAgent.toLowerCase();
+      if ("scrollingElement" in document) return document.scrollingElement;
+      return document.documentElement;
+    };
+  
+  let scrollY;
+  
+  if (bool) {
+    scrollY = scrollingElement().scrollTop;
+  } else {
+    const bodyStyleTop = parseInt(document.body.style.top || "0");
+    if (isNaN(bodyStyleTop)) {
+      scrollY = 0;
+    } else {
+      scrollY = bodyStyleTop;
+    }
+  }
+  
+    const fixedStyles = {
+      height: "100vh",
+      position: "fixed",
+      top: `${scrollY * -1}px`,
+      left: "0",
+      width: "100vw"
+    };
+  
+    Object.keys(fixedStyles).forEach((key) => {
+    if (bool) {
+      document.body.style[key] = fixedStyles[key];
+    } else {
+      document.body.style[key] = "";
+    }
+  });
+  
+    if (!bool) {
+      window.scrollTo(0, scrollY * -1);
+    }
+  };
+
+navBtn.addEventListener('click',() => {
+    navBtn.classList.toggle('open');
+    navSp.classList.toggle('open');
+    humbergerLine.classList.toggle('open');
+    if(flg){
+        backgroundFix(false);
+        navBtn.setAttribute("aria-expanded", "false");
+        flg = false;
+    }else{
+        backgroundFix(true);
+        navBtn.setAttribute("aria-expanded", "true");
+        flg = true;
+    }
+},false);
+
+//escキー押下でハンバーガーメニューを閉じられるように
+
+window.addEventListener("keydown", () => { if (event.key === "Escape") {
+    navBtn.classList.remove('open');
+    navSp.classList.remove('open');
+    humbergerLine.classList.remove('open');
+  }
+});
+
+
+//サブメニューのクリックイベント
+navSubMenuBtn.forEach(function (btn) {
+  btn.addEventListener('click', function() {
+    if(accordionFlg){
+      this.setAttribute("aria-expanded", "false");
+      accordionFlg = false;
+    } else {
+      this.setAttribute("aria-expanded", "true");
+      accordionFlg = true;
+    }
+      this.nextElementSibling.classList.toggle('open');
+  });
+});
+
+// フォーカストラップ制御
+focusTrap.addEventListener("focus", (e) => {
+  navBtn.focus();
+});

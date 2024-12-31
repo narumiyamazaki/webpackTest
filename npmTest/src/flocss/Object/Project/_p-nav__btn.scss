@@ -1,0 +1,89 @@
+@use '../../Foundation/mixin';
+
+.p-nav__btn {
+    display: block;
+    //position: relative;
+    width: 50px;
+    height: 50px;
+    @include mixin.mq(pc){
+        display: none;
+    }
+}
+.p-nav__btn.open{
+    position:relative;
+    z-index: 999;
+}
+
+/*
+
+@use '../../Foundation/mixin';
+
+.p-nav__btn {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    @include mixin.mq(pc){
+        display: none;
+    }
+    > a {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 50px;
+    }
+    > a::before {
+        position:absolute;
+        top: 15px;
+        left: 14px;
+        content: "";
+        width: 23px;
+        height: 2px;
+        background-color:#000;
+        transition: .2s;
+    }
+    > a > span {
+        display: block;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+    }
+    > a > span::after{
+        position:absolute;
+        top: 24px;
+        left: 14px;
+        content: "";
+        width: 23px;
+        height: 2px;
+        background-color:#000;
+        transition: .2s;
+    }
+    > a::after {
+        position:absolute;
+        bottom: 15px;
+        left: 14px;
+        content: "";
+        width: 23px;
+        height: 2px;
+        background-color:#000;
+    }
+    //ハンバーガーメニューのボタンを押したときの挙動
+    > a.open::before {
+        top: 24px;
+        transform: rotate(-45deg);
+    }
+    > a.open::after {
+        display:none;
+    }
+    > a.open > span::after {
+        bottom: 24px;
+        transform: rotate(-135deg);
+    }
+}
+
+.p-nav__btn.open{
+    position:relative;
+    z-index: 999;
+}
+
+*/
